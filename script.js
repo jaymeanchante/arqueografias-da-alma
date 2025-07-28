@@ -99,7 +99,7 @@ const scenes = {
                 position: "southwest", 
                 label: "Assinar livro", 
                 action: "openLink",
-                link: "https://test.com"
+                link: "https://forms.gle/LJxHrXFVRukNAQgy7"
             },
             { 
                 position: "southeast", 
