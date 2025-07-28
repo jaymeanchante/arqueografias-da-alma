@@ -93,9 +93,12 @@ body {
     padding: 2rem;
     border-radius: 10px;
     max-width: 90%;
-    width: 500px;
+    width: 90%;
+    max-height: 90vh;
     position: relative;
     color: var(--text-color);
+    display: flex;
+    flex-direction: column;
 }
 
 .close {
@@ -116,7 +119,15 @@ body {
     
     .modal-content {
         padding: 1.5rem;
-        width: 90%;
+        width: 95%;
+    }
+    
+    .text-content {
+        font-size: 0.9rem;
+    }
+    
+    .text-footer {
+        font-size: 0.8rem;
     }
 }
 
@@ -126,4 +137,50 @@ body {
         height: 40px;
         font-size: 0.6rem;
     }
+    
+    .text-content {
+        font-size: 0.8rem;
+    }
+}
+
+/* Text modal specific styles */
+.text-content {
+    overflow-y: auto;
+    max-height: 50vh; /* Reduced to make space for footer */
+    margin: 1rem 0;
+    line-height: 1.6;
+    padding: 0.5rem;
+}
+
+.text-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.text-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.text-content::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.text-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.text-footer {
+    margin-top: auto;
+    text-align: right;
+    font-style: italic;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    background: white; /* Ensure visibility */
+    position: sticky;
+    bottom: 0;
+}
+
+.text-footer p {
+    margin: 0.2rem 0;
+    font-weight: bold; /* Make more prominent */
 }
