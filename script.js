@@ -12,13 +12,13 @@ const scenes = {
         file: "media/2_text.jpg",
         overlays: [
             { 
-                position: "northeast", 
+                position: "right", 
                 label: "Texto", 
                 action: "replaceText" 
             },
             { 
-                position: "south", 
-                label: "Entrar na sala 1", 
+                position: "left", 
+                label: "Continuar", 
                 action: "3_room_1.jpg" 
             }
         ]
@@ -58,10 +58,10 @@ const scenes = {
                 label: "Ficha técnica", 
                 action: "showInfo",
                 info: {
-                    artist: "Artista da Obra",
+                    artist: "Miriam Tolpolar",
                     title: "Minha Mãe",
-                    technique: "Técnica utilizada",
-                    year: "2023"
+                    technique: "Litografia sobre lenços",
+                    year: "2024"
                 }
             }
         ]
@@ -76,10 +76,10 @@ const scenes = {
                 label: "Ficha técnica", 
                 action: "showInfo",
                 info: {
-                    artist: "Artista da Obra",
+                    artist: "Miriam Tolpolar",
                     title: "Nove Dias",
-                    technique: "Técnica utilizada",
-                    year: "2023"
+                    technique: "Litografia sobre lenços",
+                    year: "2025"
                 }
             }
         ]
@@ -119,9 +119,9 @@ const scenes = {
                 label: "Ficha técnica", 
                 action: "showInfo",
                 info: {
-                    artist: "Artista da Obra",
-                    title: "Yom Kippur",
-                    technique: "Técnica utilizada",
+                    artist: "Miriam Tolpolar",
+                    title: "Yom Kippur (Dia do Perdão)",
+                    technique: "Litografia sobre lenços",
                     year: "2023"
                 }
             }
@@ -137,10 +137,10 @@ const scenes = {
                 label: "Ficha técnica", 
                 action: "showInfo",
                 info: {
-                    artist: "Artista da Obra",
+                    artist: "Miriam Tolpolar",
                     title: "Quimera",
-                    technique: "Técnica utilizada",
-                    year: "2023"
+                    technique: "Litografia sobre lenços",
+                    year: "2025"
                 }
             }
         ]
@@ -163,10 +163,10 @@ const scenes = {
                 label: "Ficha técnica", 
                 action: "showInfo",
                 info: {
-                    artist: "Artista da Obra",
+                    artist: "Miriam Tolpolar",
                     title: "Meus Mortos, Meus Vivos",
-                    technique: "Técnica utilizada",
-                    year: "2023"
+                    technique: "Litografia sobre lenços",
+                    year: "2004"
                 }
             }
         ]
@@ -181,10 +181,10 @@ const scenes = {
                 label: "Ficha técnica", 
                 action: "showInfo",
                 info: {
-                    artist: "Artista da Obra",
-                    title: "Passante e o Fio da Vida",
-                    technique: "Técnica utilizada",
-                    year: "2023"
+                    artist: "Miriam Tolpolar",
+                    title: "Passante; Fio da Vida",
+                    technique: "Litografia e caneta esferográfica sobre lenços; Litografia sobre toalha de mesa",
+                    year: "2024/2025; 2021"
                 }
             }
         ]
