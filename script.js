@@ -52,7 +52,7 @@ const scenes = {
         type: "video",
         file: "media/5_video.mp4",
         overlays: [
-            { position: "southwest", label: "Sala 1", action: "3_room_1.jpg" }
+            { position: "bottom", label: "Sala 1", action: "3_room_1.jpg" }
         ]
     },
     "6_minha_mae.jpg": {
