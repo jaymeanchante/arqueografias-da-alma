@@ -38,12 +38,12 @@ const scenes = {
         file: "media/4_photo.jpg",
         overlays: [
             { position: "southwest", label: "Sala 1", action: "3_room_1.jpg" },
-            { position: "southeast", label: "Ver vídeo", action: "5_video.mkv" }
+            { position: "southeast", label: "Ver vídeo", action: "5_video.mp4" }
         ]
     },
-    "5_video.mkv": {
+    "5_video.mp4": {
         type: "video",
-        file: "media/5_video.mkv",
+        file: "media/5_video.mp4",
         overlays: [
             { position: "southwest", label: "Sala 1", action: "3_room_1.jpg" }
         ]
