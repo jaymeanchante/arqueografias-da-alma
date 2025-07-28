@@ -46,8 +46,8 @@ body {
 
 .overlay {
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 58px;
+    height: 58px;
     border-radius: 50%;
     background: var(--overlay-bg);
     display: flex;
@@ -109,8 +109,8 @@ body {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .overlay {
-        width: 35px;
-        height: 35px;
+        width: 46px;
+        height: 46px;
         font-size: 0.7rem;
     }
     
@@ -122,8 +122,8 @@ body {
 
 @media (max-width: 480px) {
     .overlay {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         font-size: 0.6rem;
     }
 }
