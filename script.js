@@ -12,7 +12,7 @@ const scenes = {
         file: "media/2_text.jpg",
         textContent: {
             title: "Arqueografias da alma",
-            content: "Se a relevância da trajetória de Miriam Tolpolar prescinde de demonstração, sua fidelidade à litografia e aos seus temas merece atenção e destaque. Associando técnica e suporte, a artista estabelece um espaço de reflexão para retratar seu mundo de referências afetivas e familiares, juntamente com suas próprias emoções e trajetória.\n\nPara encapsular, na forma tradicional da gravura, o espírito da sua poética, a artista recorre a um espectro diversificado de suportes. Mas não se trata de uma apropriação superficial desses suportes, mas de uma referência histórica prenante que assume múltiplos significados: pedaços de pano – lenços, guardanapos e panos de copa – que servem como objetos de proteção e cuidado, tem uma riquíssima simbologia, que varia de acordo com as diversas culturas e religiões.\n\nPodemos também falar do caráter afetivo desses panos, objetos de especial atenção das mulheres que produzem, com imensa arte, os cuidadosos bordados e primorosos acabamentos. É sobre esses suportes que as memórias de Miriam Tolpolar são plasmadas, em retratos de parentes e imagens, criadas a partir de fatos narrados em encontros familiares. Se os significados são múltiplos e variados, as imagens gravadas, ultrapassando seus limites simbólicos de itens feitos para proteger os corpos e os objetos, tem suas dimensões estéticas e afetivas potencializadas.\n\nExibidos em uma configuração intimista e silenciosa, a demonstração alongada desses temas e seus suportes oferece a possibilidade de adentrarmos no universo criador de Miriam Tolpolar, senhora de uma poética madura, marcada pelo domínio técnico e de grande potência afetiva.",
+            content: "Se a relevância da trajetória de Miriam Tolpolar prescinde de demonstração, sua fidelidade à litografia e aos seus temas merece atenção e destaque. Associando técnica e suporte, a artista estabelece um espaço de reflexão para retratar seu mundo de referências afetivas e familiares, juntamente com suas próprias emoções e trajetória.\nPara encapsular, na forma tradicional da gravura, o espírito da sua poética, a artista recorre a um espectro diversificado de suportes. Mas não se trata de uma apropriação superficial desses suportes, mas de uma referência histórica prenante que assume múltiplos significados: pedaços de pano – lenços, guardanapos e panos de copa – que servem como objetos de proteção e cuidado, tem uma riquíssima simbologia, que varia de acordo com as diversas culturas e religiões.\nPodemos também falar do caráter afetivo desses panos, objetos de especial atenção das mulheres que produzem, com imensa arte, os cuidadosos bordados e primorosos acabamentos. É sobre esses suportes que as memórias de Miriam Tolpolar são plasmadas, em retratos de parentes e imagens, criadas a partir de fatos narrados em encontros familiares. Se os significados são múltiplos e variados, as imagens gravadas, ultrapassando seus limites simbólicos de itens feitos para proteger os corpos e os objetos, tem suas dimensões estéticas e afetivas potencializadas.\nExibidos em uma configuração intimista e silenciosa, a demonstração alongada desses temas e seus suportes oferece a possibilidade de adentrarmos no universo criador de Miriam Tolpolar, senhora de uma poética madura, marcada pelo domínio técnico e de grande potência afetiva.",
             author: "Paulo Gomes",
             city: "Porto Alegre",
             date: "Outono de 2025"
@@ -35,8 +35,8 @@ const scenes = {
         file: "media/3_room_1.jpg",
         overlays: [
             { position: "right", label: "Foto", action: "4_photo.jpg" },
-            { position: "center", label: "Minha Mãe", action: "6_minha_mae.jpg" },
-            { position: "left", label: "Nove Dias", action: "7_nove_dias.jpg" },
+            { position: "center", label: "Minha mãe", action: "6_minha_mae.jpg" },
+            { position: "left", label: "Nove dias", action: "7_nove_dias.jpg" },
             { position: "bottom", label: "Sala 2", action: "8_book_sign.jpg" }
         ]
     },
@@ -66,7 +66,7 @@ const scenes = {
                 action: "showInfo",
                 info: {
                     artist: "Miriam Tolpolar",
-                    title: "Minha Mãe",
+                    title: "Minha mãe",
                     technique: "Litografia sobre lenços",
                     year: "2024"
                 }
@@ -84,7 +84,7 @@ const scenes = {
                 action: "showInfo",
                 info: {
                     artist: "Miriam Tolpolar",
-                    title: "Nove Dias",
+                    title: "Nove dias",
                     technique: "Litografia sobre lenços",
                     year: "2025"
                 }
@@ -189,7 +189,7 @@ const scenes = {
                 action: "showInfo",
                 info: {
                     artist: "Miriam Tolpolar",
-                    title: "Passante; Fio da Vida",
+                    title: "Passante; Fio da vida",
                     technique: "Litografia e caneta esferográfica sobre lenços; Litografia sobre toalha de mesa",
                     year: "2024/2025; 2021"
                 }
